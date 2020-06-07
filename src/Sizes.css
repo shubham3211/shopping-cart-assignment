@@ -1,0 +1,31 @@
+.size-ele:hover{
+  border: 1px solid black;
+}
+.size-ele{
+  border: 1px solid transparent;
+  background-color: #ececec;
+  border-radius: 50%;
+  text-align: center;
+  font-size: .8em;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 600px){
+  .sizes-container{
+    display: flex;
+    justify-content: space-evenly
+  }
+  .size-text{
+    text-align: center
+  }
+}
+
+@media screen and (max-width: 870px){
+  .size-container{
+    display: flex;
+    justify-content: space-around
+  }
+}

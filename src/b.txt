@@ -1,0 +1,1 @@
+textAlign: "center", color: "white", lineHeight: '40px'

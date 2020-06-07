@@ -1,0 +1,102 @@
+.close-button{
+  background-color: #1b1a20;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #ececec;
+  cursor: pointer;
+  position: absolute;
+  left: -50px;
+}
+
+.shopping-cart{
+  width: 440px;
+}
+
+.delete-button{
+  background-image: url('../static/sprite_delete-icon.png');
+  width: 15px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.delete-button-hover{
+  background-position-x: -17px;
+  background-size: auto 100%;
+}
+
+.delete-button-hover-text-decor{
+  text-decoration: line-through;
+  background-color: #0c0b10
+}
+
+.product-price{
+  color: #eabf00;
+  text-align: right;
+  font-size: large;
+}
+
+.quantity-button{
+  color: #b7b7b7;
+  border: 0px;
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.quantity-button:disabled{
+  opacity: 0.2;
+}
+
+.checkout-button{
+  text-align: "center";
+  background-color: #0c0b10;
+  width: 100%;
+  height: 49px;
+  border: 0px;
+  margin-top: 40px;
+  color: #ececec;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.cart-item-product::before{
+  content: "";
+  height: 2px;
+  background-color: rgba(0,0,0,.2);
+  width: 91%;
+  text-align: center;
+  margin-left: 14px;
+}
+
+.product-hover:hover{
+  border: 1px solid #eee;
+}
+
+.product-hover{
+  border: 1px solid transparent;
+}
+
+#cart::-webkit-scrollbar{
+  width: 10px;
+  background-color: rgba(0,0,0,.2);
+}   
+
+#cart::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #000
+}
+
+.checkout-button:hover{
+  background-color: #000;
+}
+
+.empty-cart{
+  text-align: center;
+  color: white;
+  line-height: 40px;
+}

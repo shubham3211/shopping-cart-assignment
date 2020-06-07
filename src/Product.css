@@ -1,0 +1,32 @@
+.product-title{
+  position: relative;
+  height: 45px;
+}
+
+.product-title::before{
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #eabf00;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.button-ele{
+  background-color: #1b1a20;
+  color: white;
+  width: 100%;
+  border-radius:0%;
+  text-align: center;
+}
+
+.free-shipping{
+  top: 0px;
+  right: 0px;
+  color: white;
+  background-color: #1b1a20;
+  padding: 3px;
+  position: absolute;
+}
